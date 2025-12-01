@@ -11,14 +11,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Running a simple build step..."
-                sh 'echo "Hello from Jenkins Pipeline!"'
+                echo "Hello from Jenkins Pipeline!"
             }
         }
 
         stage('Test') {
             steps {
                 echo "Running tests..."
-                sh 'echo "All tests passed!"'
+                echo "All tests passed!"
             }
         }
     }
