@@ -1,1 +1,4 @@
 this is fileA on feature 2
+
+
+new change
